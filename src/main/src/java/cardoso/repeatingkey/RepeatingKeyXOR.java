@@ -33,7 +33,7 @@ public class RepeatingKeyXOR {
         String xorred = BinUtils.repeatingKeyXOR(binary, key);
         String hexified = BinUtils.binToManyHex(xorred);
         System.out.println(hexified);
-        System.out.println("Souce code:");
+        System.out.println("Source code: https://github.com/Cardoz-0/RepeatingKeyXOR");
     }
 
 }
